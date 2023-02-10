@@ -17,6 +17,7 @@ def rot_90_board(board):
 def ILtoS(lst):
     return ''.join(list(map(str, lst)))
 
+
 T = int(input())
 
 for tc in range(1, T + 1):
